@@ -1,0 +1,9 @@
+# Use a base image for your chosen database
+FROM mysql:latest
+
+# Set environment variables (e.g., MYSQL_ROOT_PASSWORD, MYSQL_DATABASE, etc.)
+ENV MYSQL_ROOT_PASSWORD=your_root_password
+ENV MYSQL_DATABASE=your_db_name
+
+# ... other configurations ...
+
